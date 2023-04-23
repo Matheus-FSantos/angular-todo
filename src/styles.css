@@ -1,1 +1,182 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+
+body {
+    height: 100vh;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+
+    color: white;
+
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+ul {
+    color: black;
+
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+
+    list-style: none;
+    background: #fff;
+    border-radius: 10px;
+
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.60);
+}
+
+li {
+    padding: 15px;
+    margin: 10px;
+
+    font-size: 1em;
+    font-style: italic;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+
+li>button {
+    border: none;
+    background-color: #fff;
+
+    float: right;
+    opacity: 0.6;
+
+    transition: opacity 1s;
+}
+
+li>button:hover {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+button {
+    cursor: pointer
+}
+
+.title {
+    font-size: 3em;
+    text-shadow: 3px 5px #000;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.button {
+    background-color: #000;
+    padding: 10px;
+
+    color: #fff;
+
+    border: none;
+
+    border-radius: 30px;
+
+    font-size: 1em;
+    font-weight: 300;
+    
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.button-newTask {
+    background-color: green;
+    padding: 10px;
+
+    color: #fff;
+
+    border: none;
+
+    border-radius: 30px;
+
+    font-size: 1em;
+    font-weight: 300;
+    
+    padding-left: 50px;
+    padding-right: 50px;
+
+    opacity: 0.6;
+    transition: opacity 1s;
+}
+
+.button-newTask:hover {
+    background-color: green;
+
+    opacity: 1;
+    transition: opacity 1s;
+    
+}
+
+.button-cancel {
+    background-color: red;
+    padding: 10px;
+
+    color: #fff;
+
+    border: none;
+
+    border-radius: 30px;
+
+    font-size: 1em;
+    font-weight: 300;
+    
+    padding-left: 50px;
+    padding-right: 50px;
+
+    opacity: 0.6;
+    transition: opacity 1s;
+}
+
+.button-cancel:hover {
+    background-color: red;
+
+    opacity: 1;
+    transition: opacity 1s;
+    
+}
+
+#modal {
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+
+    list-style: none;
+    background: #fff;
+
+    color: black;
+
+    border-radius: 10px;
+
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.60);
+}
+
+#modal>h1 {
+    font-weight: 300;
+}
+
+input {
+    width: 100%;
+    
+    line-height: 50px;
+    text-indent: 10px;
+    
+    text-align: center;
+
+    font-size: 1.2em;
+}
+
+.danger {
+    color: #ff0000;
+
+    font-weight: bold;
+}
